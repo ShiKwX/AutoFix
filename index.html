@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoFix</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./dist/css/style.min.css">
+</head>
+
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <div class="navbar__content">
+        <a href="#" class="navbar__logo">AutoFix</a>
+        <ul class="navbar__items">
+          <li class="navbar__items-item"><a href="#services" class="navbar__link">Usługi</a></li>
+          <li class="navbar__items-item"><a href="#about-us" class="navbar__link">O nas</a></li>
+          <li class="navbar__items-item"><a href="#faq" class="navbar__link">FAQ</a></li>
+          <!-- <li class="navbar__items-item  navbar__contact-button">
+            <a href="#contact">Kontakt</a>
+          </li> -->
+        </ul>
+        <a href="#contact" class="socialmedia__list navbar__socialmedia-desktop navbar__link">Kontakt</a>
+        <button class="burger" aria-label="Otwórz menu nawigacyjne" role="button">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__box">
+
+        <h1 class="header__box-heading">Twoje Auto, Nasza Pasja</h1>
+        <p class="header__box-text">Dbamy o Twój samochód jak o własny.</p>
+
+        <div class="header__buttons">
+          <a href="#services" class="header__buttons-button header__buttons-button--first">Nasze usługi</a>
+          <a href="#contact" class="header__buttons-button header__buttons-button--second">Kontakt</a>
+        </div>
+
+      </div>
+    </div>
+  </header>
+  <main class="main" id="main">
+    <section class="section-padding services" id="services">
+      <div class="container">
+        <div class="section__box">
+          <h2 class="section__box-heading">Nasze usługi</h2>
+          <p class="section__box-text">Kompleksowy Serwis</p>
+          <p class="section__box-description">Od napraw po kompleksowe remonty – zapewniamy pełen zakres usług, by Twój
+            samochód był w doskonałym stanie.</p>
+        </div>
+
+        <div class="services__box">
+          <div class="services__box-item">
+            <p>Diagnostyka Pojazdu</p>
+          </div>
+          <div class="services__box-item">
+            <p>Naprawa i Wymiana Układu Hamulcowego</p>
+          </div>
+          <div class="services__box-item">
+            <p>Serwis Klimatyzacji</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="section-padding about-us" id="about-us">
+      <div class="container">
+        <div class="section__box">
+          <h2 class="section__box-heading">O nas</h2>
+          <p class="section__box-text">Co nas wyróżnia</p>
+        </div>
+      </div>
+
+
+
+      <div class="about-us__box">
+        <div class="container">
+          <span>
+            <div class="about-us-line"></div>
+            <h3 class="about-us__box-heading">Zespół Ekspertów</h3>
+          </span>
+          <div class="our-experts">
+            <div class="our-experts__expert">
+              <p>Anna Nowak</p>
+            </div>
+            <div class="our-experts__expert">
+              <p>Adam Nowak</p>
+            </div>
+            <div class="our-experts__expert">
+              <p>Joanna Nowak</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-us__box individual-approach">
+        <div class="container">
+          <span>
+            <div class="about-us-line"></div>
+            <h3 class="about-us__box-heading">Indywidualne Podejście</h3>
+          </span>
+
+          <div class="individual-approach__box">
+            <div class="individual-approach__box-text">
+              <p class="about-us__box-description">Każde auto traktujemy z indywidualnym podejściem, dostosowując
+                naprawy do specyficznych potrzeb Twojego
+                pojazdu.</p>
+              <a href="#contact" class="individual-approach__button">Kontakt <img src="./dist/img/icons/arrow-right.svg"
+                  alt=""></a>
+            </div>
+            <div class="individual-approach__box-image">
+              <img src="./dist/img/car_individual.jpg" alt=""></img>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="about-us__box guarantee">
+        <div class="container">
+          <span>
+            <div class="about-us-line"></div>
+            <h3 class="about-us__box-heading">Gwarancja Satysfakcji</h3>
+          </span>
+          <p class="about-us__box-description"> Zapewniamy pełną satysfakcję z naszych usług. Jeśli coś pójdzie nie tak,
+            poprawimy to bez dodatkowych kosztów.</p>
+
+          <div class="guarantee__box counter-box">
+            <div class="guarantee__box-item">
+              <p class="counter" data-number='570'>0</p>
+              <h4>Przeprowadzone naprawy</h4>
+            </div>
+            <div class="guarantee__box-item">
+              <p class="counter" data-number='565'>0</p>
+              <h4>Zadowolonych klientów</h4>
+            </div>
+            <div class="guarantee__box-item">
+              <p class="counter" data-number='601'>0</p>
+              <h4>Pozytywnych opinii</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <section class="section-padding testimonials" id="testimonials">
+      <div class="container">
+        <div class="section__box">
+          <h2 class="section__box-heading">Opinie</h2>
+          <p class="section__box-text">Klienci, którzy nam zaufali</p>
+          <p class="section__box-description">Od pierwszej wizyty do pełnej satysfakcji – nasi klienci cenią nas za
+            niezawodność, profesjonalizm i uczciwość. Zaufaj ekspertom, którym zaufało już setki kierowców.</p>
+        </div>
+
+
+
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="swiper__text">
+                <h3 class="swiper__text-heading">Anna Nowak</h3>
+                <p class="swiper__text-text">Profesjonalna diagnostyka i szczegółowy raport. Na pewno wrócę</p>
+                <div class="swiper__stars">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                </div>
+              </div>
+              <img src="./dist/img/header_small.jpg" alt="" class="swiper__image">
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper__text">
+                <h3 class="swiper__text-heading">Anna Nowak</h3>
+                <p class="swiper__text-text">Profesjonalna diagnostyka i szczegółowy raport. Na pewno wrócę</p>
+                <div class="swiper__stars">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                </div>
+              </div>
+              <img src="./dist/img/header_small.jpg" alt="" class="swiper__image">
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper__text">
+                <h3 class="swiper__text-heading">Anna Nowak</h3>
+                <p class="swiper__text-text">Profesjonalna diagnostyka i szczegółowy raport. Na pewno wrócę</p>
+                <div class="swiper__stars">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                </div>
+              </div>
+              <img src="./dist/img/header_small.jpg" alt="" class="swiper__image">
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper__text">
+                <h3 class="swiper__text-heading">Anna Nowak</h3>
+                <p class="swiper__text-text">Profesjonalna diagnostyka i szczegółowy raport. Na pewno wrócę</p>
+                <div class="swiper__stars">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                  <img src="./dist/img/icons/star.svg" alt="" class="swiper__stars-star">
+                </div>
+              </div>
+              <img src="./dist/img/header_small.jpg" alt="" class="swiper__image">
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="section-padding faq" id="faq">
+      <div class="container">
+        <div class="section__box">
+          <h2 class="section__box-heading">FAQ</h2>
+          <p class="section__box-text">Najczęściej zadawane pytania</p>
+          <p class="section__box-description">Od pierwszej wizyty do pełnej satysfakcji – nasi klienci cenią nas za
+            niezawodność, profesjonalizm i uczciwość. Zaufaj ekspertom, którym zaufało już setki kierowców.</p>
+        </div>
+
+
+
+
+
+        <div class="accordion">
+          <div class="accordion__column-first">
+
+            <div class="accordion__box">
+              <button class="accordion__box-btn" aria-label="Rozwiń" aria-expanded="false">
+                Jakie usługi oferujecie?
+                <div class="plus">+</div>
+              </button>
+              <div class="accordion__info">
+                <p class="accordion__info-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Qui
+                  magni
+                  inventore quaerat iure eos ipsam quia, odio quod laudantium eaque!</p>
+              </div>
+            </div>
+            <div class="accordion__box">
+              <button class="accordion__box-btn" aria-label="Rozwiń" aria-expanded="false">
+                Czy oferujecie samochód zastępczy?
+                <div class="plus">+</div>
+              </button>
+              <div class="accordion__info">
+                <p class="accordion__info-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Qui
+                  magni
+                  inventore quaerat iure eos ipsam quia, odio quod laudantium eaque!</p>
+              </div>
+            </div>
+            <div class="accordion__box">
+              <button class="accordion__box-btn" aria-label="Rozwiń" aria-expanded="false">
+                Jakie są koszty naprawy?
+                <div class="plus">+</div>
+              </button>
+              <div class="accordion__info">
+                <p class="accordion__info-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Qui
+                  magni
+                  inventore quaerat iure eos ipsam quia, odio quod laudantium eaque!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion__column-second">
+
+            <div class="accordion__box">
+              <button class="accordion__box-btn" aria-label="Rozwiń" aria-expanded="false">
+                Czy muszę wcześniej umawiać się na wizytę?
+                <div class="plus">+</div>
+              </button>
+              <div class="accordion__info">
+                <p class="accordion__info-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Qui
+                  magni
+                  inventore quaerat iure eos ipsam quia, odio quod laudantium eaque!</p>
+              </div>
+            </div>
+            <div class="accordion__box">
+              <button class="accordion__box-btn" aria-label="Rozwiń" aria-expanded="false">
+                Jak długo trwa naprawa?
+                <div class="plus">+</div>
+              </button>
+              <div class="accordion__info">
+                <p class="accordion__info-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Qui
+                  magni
+                  inventore quaerat iure eos ipsam quia, odio quod laudantium eaque!</p>
+              </div>
+            </div>
+            <div class="accordion__box">
+              <button class="accordion__box-btn" aria-label="Rozwiń" aria-expanded="false">
+                Co zrobić, jeśli samochód zepsuje się na drodze?
+                <div class="plus">+</div>
+              </button>
+              <div class="accordion__info">
+                <p class="accordion__info-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Qui
+                  magni
+                  inventore quaerat iure eos ipsam quia, odio quod laudantium eaque!</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+        <div class="accordion__underline"></div>
+
+
+        <div class="faq__question">
+          <p class="faq__question-text">Nie znalazłeś interesującego ciebie pytania? Napisz do nas!</p>
+          <a href="#" class="faq__question-button">Kontakt <img src="./dist/img/icons/arrow-right.svg" alt=""></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding quote" id="quote">
+      <div class="container">
+        <div class="quote__text">
+          <h2 class="quote__text-heading">Zaufaj Profesjonalistom</h2>
+          <p class="quote__text-text">Nie czekaj, aż mała usterka przerodzi się w poważny problem. Zarezerwuj wizytę już
+            teraz!</p>
+        </div>
+      </div>
+    </section>
+    <section class="section-padding contact" id="contact">
+      <div class="container">
+        <div class="section__box">
+          <h2 class="section__box-heading">Kontakt</h2>
+          <p class="section__box-text">Skontaktuj się z nami</p>
+          <p class="section__box-description">Od pierwszej wizyty do pełnej satysfakcji – nasi klienci cenią nas za
+            niezawodność, profesjonalizm i uczciwość. Zaufaj ekspertom, którym zaufało już setki kierowców.</p>
+        </div>
+
+
+        <div class="contact__box">
+          <div class="contact__box-item">
+            <div class="contact__box-icon">
+              <img src="./dist/img/icons/phone.svg" alt="">
+            </div>
+            <p>+48 000 000 000</p>
+          </div>
+          <div class="contact__box-item">
+            <div class="contact__box-icon">
+              <img src="./dist/img/icons/email.svg" alt="">
+            </div>
+            <p>kontakt@alphacars.pl</p>
+          </div>
+          <div class="contact__box-item">
+            <div class="contact__box-icon">
+              <img src="./dist/img/icons/location.svg" alt="">
+            </div>
+            <p>08-110, ul.Samochodowa, Warszawa</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="footer">
+    <div class="container">
+      <p class="footer__text">2024 | <span class="footer__logo">AlphaCars</span></p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./dist/js/main.min.js"></script>
+</body>
+
+</html>
